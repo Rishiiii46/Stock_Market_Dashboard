@@ -1,0 +1,78 @@
+/* Dark Theme - Prediction Panel */
+.prediction-panel {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid #2d3748;
+}
+
+.prediction-panel h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.prediction-panel button {
+  width: 100%;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; 
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.prediction-panel button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.prediction-panel button:disabled {
+  background: #4a5568;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.prediction-results {
+  margin-top: 20px;
+  padding: 20px;
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  border-radius: 8px;
+}
+
+.prediction-header h4 {
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.prediction-details > div {
+  margin-bottom: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #374151;
+}
+
+.prediction-details > div:last-child {
+  border-bottom: none;
+}
+
+.prediction-details strong {
+  color: #e2e8f0;
+  display: inline-block;
+  min-width: 140px;
+}
+
+.new-prediction-btn {
+  margin-top: 15px !important;
+  width: 100% !important;
+  padding: 10px 16px !important;
+  background: linear-gradient(135deg, #48bb78 0%, #38a169 100%) !important;
+  font-size: 14px !important;
+}

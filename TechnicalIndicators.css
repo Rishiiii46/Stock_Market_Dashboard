@@ -1,0 +1,61 @@
+/* Dark Theme - Technical Indicators */
+.technical-indicators {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid #2d3748;
+  margin-bottom: 20px;
+}
+
+.technical-indicators h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.indicators-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.indicator-item {
+  background: #2d3748;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #4a5568;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.indicator-item:hover {
+  background: #374151;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.indicator-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #a0aec0;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.indicator-value {
+  display: block;
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.no-indicators {
+  color: #a0aec0;
+  text-align: center;
+  padding: 40px 20px;
+  font-style: italic;
+}

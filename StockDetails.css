@@ -1,0 +1,82 @@
+/* Dark Theme - Stock Details */
+.stock-details {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid #2d3748;
+}
+
+.stock-header {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #374151;
+}
+
+.stock-header h2 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.price-change {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.price-change.positive {
+  color: #48bb78;
+  background: rgba(72, 187, 120, 0.1);
+}
+
+.price-change.negative {
+  color: #f56565;
+  background: rgba(245, 101, 101, 0.1);
+}
+
+.stock-metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.metric-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.metric {
+  background: #2d3748;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #4a5568;
+  transition: all 0.3s ease;
+}
+
+.metric:hover {
+  background: #374151;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.metric .label {
+  display: block;
+  font-size: 0.85rem;
+  color: #a0aec0;
+  font-weight: 500;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.metric .value {
+  display: block;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 600;
+}
